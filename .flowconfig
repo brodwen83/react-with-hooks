@@ -21,3 +21,6 @@ module.file_ext=.scss
 
 [strict]
 unclear-type
+
+[version]
+^0.93.0
