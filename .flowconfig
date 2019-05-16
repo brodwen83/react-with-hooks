@@ -1,4 +1,6 @@
 [ignore]
+<PROJECT_ROOT>/functions/node_modules/.*
+<PROJECT_ROOT>/node_modules/.*
 
 [include]
 
@@ -8,5 +10,7 @@
 
 [options]
 all=true
+emoji=true
 
 [strict]
+unclear-type
