@@ -29,5 +29,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{jsx,js}": [
+      "flow focus-check",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{jsx,js,json,md,ts}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
