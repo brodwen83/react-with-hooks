@@ -1,11 +1,12 @@
-import "./App.css";
 import React from "react";
-import RegisterForm from "./components/forms/RegisterForm";
+import TodoList from "./components/TodoList";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <RegisterForm />
+      <TodoList />
     </div>
   );
 }
