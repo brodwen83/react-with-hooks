@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "flow-bin": "^0.98.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -45,5 +44,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "flow-bin": "^0.93.0"
   }
 }
